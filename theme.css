@@ -32,17 +32,27 @@ body {
 }
 
 #homepage-jumbo {
-    color: #eee;
-    background-image: url("drone.jpg");
-    background-size: contain;
+  color: #eee;
+  background-image: url("drone.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .example {
-
+  margin: 10px 0 10px 0;
 }
 
 .example img {
   width: 100%;
+}
+
+.tab-pane  h4 {
+  text-align: center;
+}
+
+.tab-pane > h4 {
+  width:80%;
+  margin: 20px auto;
 }
 
 /* override bootstrap extra wide */
