@@ -1,6 +1,7 @@
 body {
   padding-top: 70px;
   padding-bottom: 30px;
+  font-family: Arial, sans-serif;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -23,6 +24,7 @@ body {
     margin-bottom: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: table;
 }
 
 .quote {
@@ -34,3 +36,14 @@ body {
     background-image: url("drone.jpg");
     background-size: contain;
 }
+
+.example {
+
+}
+
+.example img {
+  width: 100%;
+}
+
+/* override bootstrap extra wide */
+@media (min-width:1200px){.container{width:970px}};
