@@ -36,6 +36,11 @@ body {
   background-image: url("drone.jpg");
   background-size: cover;
   background-position: center;
+  text-align: center;
+}
+
+#homepage-jumbo p {
+  margin-bottom: 5px;
 }
 
 .example {
